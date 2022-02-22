@@ -1,0 +1,17 @@
+import java.util.*;
+class PrintDigit
+{
+	int digit;
+  public static void main(String[] args)
+  {
+    System.out.println("enter the num");
+	Scanner sc = new Scanner(System.in);
+	int n=sc.nextInt();
+	while(n>0)
+	{
+	  digit=n%10;
+	  System.out.print(digit+ " ");
+	  n=n/10;
+	}
+  }
+}
